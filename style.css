@@ -133,7 +133,6 @@ ol, li {
   transform: translate3d(-50%,-40%,70px);
   color: #fff;
   font-size: 2em;
-  display:none;
 }
 
 .carousel__snapper {
