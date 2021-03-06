@@ -121,7 +121,7 @@ ol, li {
   counter-increment: item;
 }
 
-.carousel__slide:nth-child(even) {
+.carousel__slide:nth-child(2) {
   background-color: #99f;
 }
 
