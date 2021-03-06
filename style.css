@@ -125,6 +125,17 @@ ol, li {
   background-color: #99f;
 }
 
+.carousel__slide:before {
+  content: counter(item);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-40%,70px);
+  color: #fff;
+  font-size: 2em;
+  display:none;
+}
+
 .carousel__snapper {
   position: absolute;
   top: 0;
