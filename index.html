@@ -244,6 +244,19 @@ ol, li {
       background-position:center;
       background-repeat:no-repeat;
 }
+    .carousel__navigation li::before {
+    content: counter(li);
+    color: red;
+    display: inline-block;
+    width: 1em;
+    /* margin-left: -1.5em; */
+    margin-right: 0.5em;
+    text-align: right;
+    direction: rtl;
+    position: relative;
+    top: 12px;
+    left: 11px;
+}
   
   </style>
 
