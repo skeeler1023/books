@@ -113,7 +113,13 @@ ol, li {
   scroll-snap-type: x mandatory;
 }
 
-
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+  background-color: #f99;
+  counter-increment: item;
+}
 
 .carousel__slide:nth-child(even) {
   background-color: #99f;
