@@ -122,7 +122,7 @@ ol, li {
 }
 
 .carousel__slide:nth-child(2) {
-  background-color: #99f;
+  background-color: green;
 }
 
 .carousel__slide:before {
