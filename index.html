@@ -239,9 +239,10 @@ ol, li {
 }
     
    /*Pictures*/
-    .carousel__slide:nth-child(1) {
-  background-image: url('https://lh3.googleusercontent.com/ayWbIi4fTe7PJyOcsCCp7oHjly4wWQKdjcPr2URgRJZN0vbb-SQMKm06s1AFbSOUhrewyp1PaUkdYF5dMPW1yEP3eWVQABrnIuUPNCWmO27VmSFbgMnp5Nb1ezsA3IcAkJehmYcPhD1P4TOaofebiw8QI_43otGIjqWW_lsPfLs3RN0-jAxv2IFVdp-g5tn7_4lpLizq8Ygfx5Lm7Sd5aSage1e4y77u6sHfDVUZsEX_zIVXOMuDm6BXodq-mvtMyhC0-SGw2dZRmA5saAoc-on4v8VBnY0HyrsgwPicdcB0dFpiQrp14MUTs3z5paOxC3iN5knHcb2sdRqbHhpVgaN2L7M1jJJec1ztkyvnuaZVOHx6CjklXd0Nz4p1GxKS9YUUOqKa7iEA-d5U9Aj9hWYna6D25rbdSaiYnmOZ9nR0kTabeubuN6DvjlfOMtJVGWQuAumG9zbia_ZnhSfJ8A6J51iF4okux0H2PejkFZRuwndUJaR7oEvrq0eucNWtb7MJk5iaxmpltIjPT4RvKg_RI-4TqhpCZhW4AsurO9NfMvA9cFzmxZr8OKsddtW5TtSzdTYMy5AdIxxKzdh9CuDc16cHqZp9r-SVuxs5lMpm1dRhLXj48Pu26jFrsfER-Oom0UaB1HUReyE5vfDUnS5-e_AdgFO2UDbrVBRwPfkRj-NHx6UQMblioORq=w1098-h1464-no?authuser=0');
-      background-size:contain;
+    .carousel__slide{
+   background-size:contain;
+      background-position:center;
+      background-repeat:none;
 }
   </style>
 
@@ -250,7 +251,7 @@ ol, li {
 <body>
   <script src="js/scripts.js"></script>
   <div id="header">
-    <h1>Books for Free 3</h1>
+    <h1>Books for Free 4</h1>
   </div>
  
 
@@ -258,7 +259,8 @@ ol, li {
   <ol class="carousel__viewport">
     <li id="carousel__slide1"
         tabindex="0"
-        class="carousel__slide">
+        class="carousel__slide" style="background-image: url('https://lh3.googleusercontent.com/ayWbIi4fTe7PJyOcsCCp7oHjly4wWQKdjcPr2URgRJZN0vbb-SQMKm06s1AFbSOUhrewyp1PaUkdYF5dMPW1yEP3eWVQABrnIuUPNCWmO27VmSFbgMnp5Nb1ezsA3IcAkJehmYcPhD1P4TOaofebiw8QI_43otGIjqWW_lsPfLs3RN0-jAxv2IFVdp-g5tn7_4lpLizq8Ygfx5Lm7Sd5aSage1e4y77u6sHfDVUZsEX_zIVXOMuDm6BXodq-mvtMyhC0-SGw2dZRmA5saAoc-on4v8VBnY0HyrsgwPicdcB0dFpiQrp14MUTs3z5paOxC3iN5knHcb2sdRqbHhpVgaN2L7M1jJJec1ztkyvnuaZVOHx6CjklXd0Nz4p1GxKS9YUUOqKa7iEA-d5U9Aj9hWYna6D25rbdSaiYnmOZ9nR0kTabeubuN6DvjlfOMtJVGWQuAumG9zbia_ZnhSfJ8A6J51iF4okux0H2PejkFZRuwndUJaR7oEvrq0eucNWtb7MJk5iaxmpltIjPT4RvKg_RI-4TqhpCZhW4AsurO9NfMvA9cFzmxZr8OKsddtW5TtSzdTYMy5AdIxxKzdh9CuDc16cHqZp9r-SVuxs5lMpm1dRhLXj48Pu26jFrsfER-Oom0UaB1HUReyE5vfDUnS5-e_AdgFO2UDbrVBRwPfkRj-NHx6UQMblioORq=w1098-h1464-no?authuser=0');
+     ">
       <div class="carousel__snapper">
         <a href="#carousel__slide4"
            class="carousel__prev">Go to last slide</a>
